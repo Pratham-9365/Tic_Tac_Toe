@@ -71,27 +71,6 @@ This project demonstrates DOM manipulation, event handling, and basic game logic
 
 ---
 
-## Known Issues & Tips
-
-- **Double Message Bug:**  
-  If you see two messages when O wins, it's likely because both the win and draw conditions are triggered.  
-  **Fix:**  
-  - After a win, you should prevent the draw message from appearing by returning early or setting a flag.
-
-- **Border Around Page:**  
-  To add a border without scrollbars, use:
-  ```css
-  body {
-      outline: 10px solid rgb(73, 113, 139);
-      min-height: 100vh;
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-  }
-  ```
-  Avoid using `width: 100vw` and `height: 100vh` on `.container` to prevent scrollbars.
-
----
 
 ## Customization
 
